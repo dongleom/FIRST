@@ -1,0 +1,11 @@
+.banner__upper {
+    display: flex;
+    justify-content: space-between;
+    height: 330px;
+    align-items: center;
+    border-top: 1px solid var(--Dark-12, #1C1C21);
+    border-bottom: 1px solid var(--Dark-12, #1C1C21);
+    @import "_banner__upper__left/_banner__upper__left.scss";
+    @import "_banner__upper__right/_banner__upper__right.scss";
+}
+

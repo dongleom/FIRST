@@ -1,0 +1,103 @@
+&__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__right {
+        width: 783px;
+        &__table {
+            &__tr {
+                &__td {
+                    width: 703px;
+                    &__star {
+                        display: flex;
+                        align-items: center;
+                        margin: 40px 0 20px 0;
+                        gap: 10px;
+
+                        &__h5 {
+                            @extend %h5;
+                            margin: 0;
+                        }
+                    }
+
+                    &__p {
+                        @extend %p;
+                        margin: 0 0 40px 0;
+                    }
+
+                    &__info {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        max-width: 520px;
+                        &__left {
+                            &__p {
+                                @extend %p;
+                                margin: 0;
+                                &__bold {
+                                    @extend %bold;
+                                    margin: 40px 0 10px 0;
+                                }
+                            }
+                        }
+    
+                        &__right {
+                            &__p {
+                                @extend %p;
+                                margin: 0;
+                                &__bold {
+                                    @extend %bold;
+                                    margin: 40px 0 10px 0;
+                                }
+                            }
+                        }
+                    }
+
+                    &__icons {
+                        display: flex;
+                        flex-direction: row ;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 40px;
+
+                        &__left {
+                            border-radius: 100px;
+                            border: 1px solid var(--Dark-12, #1C1C21);
+                            background: var(--Dark-03, #070708);
+                            padding: 10px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            box-sizing: border-box;
+
+                            svg {
+                                display: flex;
+                                padding: 14px;
+                                align-items: center;
+                                border-radius: 100px;
+                                border: 1px solid #2F2F37;
+                                background: var(--Dark-12, #1C1C21);
+                            }
+
+                            svg:nth-of-type(2) {
+                                margin: 0 16px;
+                            }
+                        }
+
+                        &__right {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 34px;
+                        }
+                    }
+                    
+                }
+
+                
+            }
+
+    
+        }
+    }
+}

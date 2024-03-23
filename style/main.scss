@@ -1,0 +1,41 @@
+body {
+    background: var(--Dark-03, #070708);
+    font-family: Manrope;
+}
+
+.container {
+    max-width: 1670px;
+    margin: 0 auto;
+}
+
+.regular {
+    color: var(--Absolute-White, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+    cursor: pointer;
+}
+
+.arrow {
+    @extend %purple-button;
+}
+
+
+
+@import "./blocks/header/header";
+@import "./blocks/banner/_banner__upper";
+@import "mod.scss";
+@import "./blocks/line/line";
+@import "./blocks/about/about";
+@import "./blocks/services/services";
+@import "./blocks/portfolio/portfolio";
+@import "./blocks/footer/footer"

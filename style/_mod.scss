@@ -1,0 +1,87 @@
+%gray-button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+    cursor: pointer;
+}
+
+%purple-button {
+    display: flex;
+    padding: 18px 50px;
+    width: 130px;
+    height: 66px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--Purple-55, #4A2CED);
+    box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+}
+
+%card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    flex: 1 0 0;
+}
+
+%h4 {
+    color: var(--Grey-40, #62646C);
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+%h2 {
+    color: var(--Grey-90, #E4E4E6);
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+%h3 {
+    color: var(--Absolute-White, #FFF);
+    font-family: Manrope;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+%h5 {
+    color: var(--Grey-80, #CACACE);
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+%p {
+    color: var(--Grey-70, #AFB0B6);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+%bold {
+    color: var(--Grey-90, #E4E4E6);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}

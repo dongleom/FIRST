@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 .regular {
   color: var(--Absolute-White, #FFF);
   font-family: Manrope;
